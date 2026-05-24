@@ -1,4 +1,4 @@
-﻿package com.example.noteai.domain.model
+package com.example.noteai.domain.model
 
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant

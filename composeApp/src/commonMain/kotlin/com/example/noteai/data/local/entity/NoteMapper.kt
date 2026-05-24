@@ -1,4 +1,4 @@
-﻿package com.example.noteai.data.local.entity
+package com.example.noteai.data.local.entity
 
 import com.example.noteai.data.local.NoteEntity
 import com.example.noteai.domain.model.Note
