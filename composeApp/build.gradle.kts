@@ -85,10 +85,11 @@ kotlin {
             implementation(libs.coil.network.ktor)
         }
         
+        @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
         commonTest.dependencies {
             implementation(libs.kotlin.test)
             implementation(libs.kotlinx.coroutines.test)
-            implementation(libs.turbine)
+            implementation(compose.uiTest)
         }
         
         androidMain.dependencies {
